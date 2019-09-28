@@ -1,0 +1,101 @@
+* {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-family: "Poppins", sans-serif;
+}
+
+section {
+	height: 100vh;
+	width: 100%;
+}
+
+.container {
+	width: 100%;
+	height: 100vh;
+}
+
+.nav-wrapper {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	top: 0;
+	align-items: center;
+	padding: 20px 0;
+}
+
+.nav-wrapper h4 {
+	color: #fff;
+	font-family: "Montserrat", sans-serif;
+	margin-left: 30px;
+}
+
+.title {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	font-family: "Montserrat", sans-serif;
+	font-size: 100px;
+}
+
+.images {
+	width: 100%;
+	height: 110%;
+	position: relative;
+	z-index: -1;
+	top: -10%;
+}
+
+.image-wrapper {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	bottom: 0;
+}
+
+.image-wrapper img {
+	width: 100%;
+	height: 100%;
+}
+
+.blur {
+	width: 120%;
+	margin-left: -10%;
+	height: 250px;
+	background-color: #030000;
+	position: absolute;
+	bottom: -180px;
+	filter: blur(40px);
+	z-index: 999;
+}
+
+.content {
+	height: 100%;
+	width: 100%;
+	background-color: #030000;
+	z-index: 0;
+	top: 100%;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.content-wrapper {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.text {
+	padding-top: 100px;
+	width: 60%;
+	font-size: 0.8em;
+	text-align: center;
+}
